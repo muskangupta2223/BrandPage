@@ -1,0 +1,174 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+    #main {
+      width: 100%;
+      background-image: url('img2.png');
+    }
+
+    #nav {
+      height: 80px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+   
+    }
+
+    #nav h1 {
+      font-size: 20px;
+      text-transform: capitalize;
+      display: flex;
+      align-items: center;
+    }
+
+    #nav>i {
+      font-size: 20px;
+      padding: 0 10px;
+    }
+
+    #nav-pts {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    #nav h5 {
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    #nav img {
+      height:70px;
+    }
+
+    .remain {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 20px;
+    }
+
+    #left, #center, #right {
+      flex: 1 1 300px;
+      padding: 20px;
+    }
+
+    #left h1 {
+      font-size: 40px;
+    }
+
+    #left span {
+      color: #dd6666;
+    }
+
+    #left p {
+      font-size: 14px;
+      color: #980505;
+    }
+
+    .p1 {
+      text-align: right;
+    }
+
+    #left button {
+      padding: 10px 20px;
+      background-color: #f59494;
+      border: none;
+      border-radius: 50px;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+    }
+
+    #center img {
+      width: 100%;
+      height: auto;
+    }
+
+    .r1 {
+      border-bottom: 2px solid #dd6666;
+      margin-bottom: 20px;
+    }
+
+    .r1 h3, .r1 h2 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .r1 i {
+      font-size: 18px;
+      float: right;
+    }
+
+    .r1 p {
+      font-size: 14px;
+      color: #333;
+      margin-top: 10px;
+    }
+
+    #why-sofy {
+      padding: 30px 20px;
+      background-color: #fff0f0;
+      margin: 20px 0;
+      border-top: 2px solid #f59494;
+    }
+     #eco-promise{
+        padding: 30px 20px;
+      background-color: #fff0f0;
+      margin: 20px 0;
+      border-top: 2px solid #f59494;
+     }
+    #why-sofy h2  {
+      color: #dd6666;
+      margin-bottom: 15px;
+    }
+    #eco-promise h2{
+         color: #dd6666;
+      margin-bottom: 15px;
+    }
+    #why-sofy ul {
+      padding-left: 0;
+    }
+
+    #why-sofy ul li {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    #eco-promise p {
+      font-size: 15px;
+      max-width: 700px;
+    }
+
+    @media (max-width: 768px) {
+      #left h1 {
+        font-size: 30px;
+      }
+
+      #nav-pts {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+    .footer{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 50%;
+        background-color: #ac7272;
+    }
